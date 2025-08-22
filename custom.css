@@ -1,0 +1,32 @@
+/* Grid layout for vertical slides */
+.vertical-slide-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+}
+
+.vertical-slide-grid-bio {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+}
+
+/* Remove bullets from lists */
+.no-bullets {
+    list-style: none;
+}
+
+/* Dimmed text for inactive content */
+.dimmed {
+    color: grey;
+}
+
+/* Image styles */
+.full-width-image {
+    width: 200%;
+}
+
+.full-height-image {
+    width: auto;
+    height: 100%;
+}
