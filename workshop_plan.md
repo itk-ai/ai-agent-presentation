@@ -31,7 +31,15 @@ Kommune benspænd og potentialer
 
 Enten så kan de snik snak om udfordringer om potentialer
 
-Scroller kommunernes hjemmesider 
 
+## Youtube video
+
+- https://www.youtube.com/watch?v=r5Pa5qDYpb4: Flowise.ai "Software dev team: Build me a time tracker"
+- https://www.youtube.com/watch?v=Dt6u-yFEpsk: n8n: "10 Insane AI Agent Use Cases in n8n"
+- https://www.youtube.com/watch?v=mQt1hOjBH9o: n8n: "Ultimate n8n RAG AI Agent"
+
+## Usecases
 
 Christoffer: AI usecase
+
+- Skraper kommunernes hjemmesider for nyheder han skal være opmærksom på 
