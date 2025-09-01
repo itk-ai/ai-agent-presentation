@@ -1,0 +1,37 @@
+# Workshop om AI agenter
+
+Oplæg: 20min
+
+Tid: 10.20-11.00
+
+## Plan
+
+5min: snakker om usecase / brainstormer i dagligt/arbejde
+8min: snak sammen i gruppen (om bordet)
+
+25 min: bygger 2 og 2
+
+Evt. en person/gruppe op, der har lavet agent og præsenter 
+
+## Noter
+
+Antal: 110 +
+
+Hjælper: Daniel + 2*Søren supportere (+ evt. Laura og Joakim)
+
+Daniel teknisk support
+
+
+Idé: 2 og 2 find arbejdsprocess fra jeres hverdag, som kunne automatiseres
+
+Implementer i gratis versionen af flowiseai.com
+
+Kommune benspænd og potentialer
+
+
+Enten så kan de snik snak om udfordringer om potentialer
+
+Scroller kommunernes hjemmesider 
+
+
+Christoffer: AI usecase
