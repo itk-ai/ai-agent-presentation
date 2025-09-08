@@ -7,15 +7,18 @@
         <title>AI Agents - KL AI Netværksmøde</title>
 
         <!-- Load reveal.js from CDN -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+        <!-- see https://www.jsdelivr.com/package/npm/reveal.js?tab=files -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/theme/white.css">
+
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/highlight/monokai.css">
+
+        <!-- Mermaid pluging: https://github.com/zjffun/reveal.js-mermaid-plugin -->
 
         <!-- Font Awesome 6 (Latest) -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-        <!-- Theme used for syntax highlighted code -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
 
         <!-- Custom styles -->
         <link rel="stylesheet" href="custom.css">
@@ -26,14 +29,17 @@
                 <section>
                     <div class="vertical-slide-grid">
                         <div>
-                            <img src="illustrations/clipart-secret-agent.png" alt="Secret agent illustration" style="width: 70%; height: auto;">
+                            <img src="illustrations/clipart-secret-agent.png" alt="Secret agent illustration"
+                                 style="width: 70%; height: auto;">
                         </div>
                         <div>
                             <h3>AI Agenter</h3>
                             <p>KL AI Netværksmøde</p>
-                            <p style="font-size: 0.6em; text-align: left; display: inline-block; margin: 0 auto;">Daniel Kjeldsmark Andreasen<br />
-                            Data Scientist<br />
-                            ITK, Aarhus Kommune</p>
+                            <p style="font-size: 0.6em; text-align: left; display: inline-block; margin: 0 auto;">
+                                Daniel Kjeldsmark Andreasen<br />
+                                Data Scientist<br />
+                                ITK, Aarhus Kommune
+                            </p>
                             <p><br /></p>
                             <h2>Snak med sidemanden</h2>
                             <p>Hvad forstår I ved en "AI agent"?</p>
@@ -94,7 +100,8 @@
                         <div class="vertical-slide-grid-bio">
                             <div style="position: relative;">
                                 <!-- img src="illustrations/ai-chat-agent-makes-presentation.png" alt="AI chat agent makes presentation" style="margin-left: -50%; width: 150%; height: auto; z-index: 1;" -->
-                                <img src="illustrations/ai-chat-agent-makes-presentation.png" alt="AI chat agent makes presentation" style="transform: scale(1.5); transform-origin: right center;">
+                                <img src="illustrations/ai-chat-agent-makes-presentation.png"
+                                     alt="AI chat agent makes presentation" style="transform: scale(1.5); transform-origin: right center;">
                             </div>
                             <div>
                                 <ul class="no-bullets">
@@ -119,7 +126,8 @@
                     <section data-auto-animate>
                         <div class="vertical-slide-grid-bio">
                             <div>
-                                <img src="illustrations/chat-ai-agenter-tyrepis.png" alt="AI agenter er tyrepis" style="width: auto; height: 100%; transform: translateX(-10%);">
+                                <img src="illustrations/chat-ai-agenter-tyrepis.png"
+                                     alt="AI agenter er tyrepis" style="width: auto; height: 100%; transform: translateX(-10%);">
                             </div>
                             <div>
                                 <ul class="no-bullets">
@@ -211,8 +219,201 @@
                         </ul>
                     </section>
                     <section>
-                        <!-- Actor diagram over en mulig AI agent: Tjek afgørelser mod anke-databasen, Trækker sag fra modulo, søger i anke databasen  -->
+                        <!-- Example diagram -->
+                        <div class="mermaid">
+                            <pre>
+                              %%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': true }}}%%
+                              flowchart TD
+                                A[Start] --> B{Is it?};
+                                B -- Yes --> C[OK];;
+                                B -- No ----> E[End];
+                            </pre>
+                          </div>
                     </section>
+                    <section data-transition="fade">
+                        <!-- Example diagram -->
+                        <div class="mermaid">
+                            <pre>
+                              %%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': true }}}%%
+                              flowchart TD
+                                A[Start] --> B{Is it?};
+                                B -- Yes --> C[OK];
+                                C --> D[Rethink];
+                                D --> B;
+                                B -- No ----> E[End];
+                            </pre>
+                          </div>
+                    </section>
+                    <section data-auto-animate>
+                        <!-- Example diagram -->
+                        <div class="mermaid">
+                            <pre data-id="dataid">
+                              %%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': true }}}%%
+                              flowchart TD
+                                A[Start] --> B{Is it?};
+                                B -- Yes --> C[OK];
+                                B -- No ----> E[End];
+                            </pre>
+                          </div>
+                    </section>
+                    <section data-auto-animate>
+                        <!-- Example diagram -->
+                        <div class="mermaid">
+                            <pre data-id="dataid">
+                              %%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': true }}}%%
+                              flowchart TD
+                                A[Start] --> B{Is it?};
+                                B -- Yes --> C[OK];
+                                C --> D[Rethink];
+                                D --> B;
+                                B -- No ----> E[End];
+                            </pre>
+                          </div>
+                    </section>
+                    <section data-vertical-align-top data-transition="slide-in none-out">
+                        <!-- Actor diagram over en mulig AI agent: Tjek afgørelser mod anke-databasen,
+                             Trækker sag fra modulo, søger i anke databasen -->
+                        <!-- TODO: Opdater og tjek igennem -->
+                        <div class="mermaid">
+                            <pre>
+                                %%{init: {'sequence': { 'mirrorActors': false }}}%%
+                                sequenceDiagram
+                                    actor Sagsbehandler
+                                    box AI Agent
+                                        participant LLM
+                                        participant Service as Service/Tool Manager
+                                        participant Tools
+                                    end
+                                    participant Modulo
+                                    participant Ankedatabase
+
+                                    Sagsbehandler->>Service: Tjek sagsnummer: #12345;
+                            </pre>
+                          </div>
+                    </section>
+                    <section data-vertical-align-top data-transition="none">
+                        <!-- Actor diagram over en mulig AI agent: Tjek afgørelser mod anke-databasen,
+                             Trækker sag fra modulo, søger i anke databasen -->
+                        <!-- TODO: Opdater og tjek igennem -->
+                        <div class="mermaid">
+                            <pre>
+                                %%{init: {'sequence': { 'mirrorActors': false }}}%%
+                                sequenceDiagram
+                                    actor Sagsbehandler
+                                    box AI Agent
+                                        participant LLM
+                                        participant Service as Service/Tool Manager
+                                        participant Tools
+                                    end
+                                    participant Modulo
+                                    participant Ankedatabase
+
+                                    Sagsbehandler->>Service: Tjek sagsnummer: #12345;
+                                    Service->>LLM: Analyser forespørgsel;
+
+                                    LLM->>Service: Request tool: get_case;
+                                    Service->>Tools: Invoke get_case(#12345);
+                                    Tools->>Modulo: Hent sagsdetaljer;
+                                    Modulo-->>Tools: Returnerer sagsdata;
+                                    Tools-->>Service: Case data;
+                                    Service-->>LLM: Case data result;
+
+                            </pre>
+                          </div>
+                    </section>
+                    <section data-vertical-align-top data-transition="none">
+                        <!-- Actor diagram over en mulig AI agent: Tjek afgørelser mod anke-databasen,
+                             Trækker sag fra modulo, søger i anke databasen -->
+                        <!-- TODO: Opdater og tjek igennem -->
+                        <div class="mermaid">
+                            <pre>
+                                %%{init: {'sequence': { 'mirrorActors': false }}}%%
+                                sequenceDiagram
+                                    actor Sagsbehandler
+                                    box AI Agent
+                                        participant LLM
+                                        participant Service as Service/Tool Manager
+                                        participant Tools
+                                    end
+                                    participant Modulo
+                                    participant Ankedatabase
+
+                                    Sagsbehandler->>Service: Tjek sagsnummer: #12345;
+                                    Service->>LLM: Analyser forespørgsel;
+
+                                    LLM->>Service: Request tool: get_case;
+                                    Service->>Tools: Invoke get_case(#12345);
+                                    Tools->>Modulo: Hent sagsdetaljer;
+                                    Modulo-->>Tools: Returnerer sagsdata;
+                                    Tools-->>Service: Case data;
+                                    Service-->>LLM: Case data result;
+
+                                    Note over LLM: Analyserer sag og<br/>identificerer afgørelser;
+
+                                    loop For hver afgørelse
+                                        LLM->>Service: Request tool: search_appeals;
+                                        Service->>Tools: Invoke search_appeals(afgørelse);
+                                        Tools->>Ankedatabase: Søg efter lignende ankesager;
+                                        Ankedatabase-->>Tools: Returnerer matchende ankesager
+                                        Tools-->>Service: Appeal matches
+                                        Service-->>LLM: Appeal search results
+                                        Note over LLM: Analyserer om ankesager<br/>modsiger nuværende afgørelse;
+                                    end;
+
+                            </pre>
+                          </div>
+                    </section>
+                    <section data-transition="none">
+                        <!-- Actor diagram over en mulig AI agent: Tjek afgørelser mod anke-databasen,
+                             Trækker sag fra modulo, søger i anke databasen -->
+                        <!-- TODO: Opdater og tjek igennem -->
+                        <div class="mermaid">
+                            <pre>
+                                %%{init: {'sequence': { 'mirrorActors': false }}}%%
+                                sequenceDiagram
+                                    actor Sagsbehandler
+                                    box AI Agent
+                                        participant LLM
+                                        participant Service as Service/Tool Manager
+                                        participant Tools
+                                    end
+                                    participant Modulo
+                                    participant Ankedatabase
+
+                                    Sagsbehandler->>Service: Tjek sagsnummer: #12345;
+                                    Service->>LLM: Analyser forespørgsel;
+
+                                    LLM->>Service: Request tool: get_case;
+                                    Service->>Tools: Invoke get_case(#12345);
+                                    Tools->>Modulo: Hent sagsdetaljer;
+                                    Modulo-->>Tools: Returnerer sagsdata;
+                                    Tools-->>Service: Case data;
+                                    Service-->>LLM: Case data result;
+
+                                    Note over LLM: Analyserer sag og<br/>identificerer afgørelser;
+
+                                    loop For hver afgørelse
+                                        LLM->>Service: Request tool: search_appeals;
+                                        Service->>Tools: Invoke search_appeals(afgørelse);
+                                        Tools->>Ankedatabase: Søg efter lignende ankesager;
+                                        Ankedatabase-->>Tools: Returnerer matchende ankesager
+                                        Tools-->>Service: Appeal matches
+                                        Service-->>LLM: Appeal search results
+                                        Note over LLM: Analyserer om ankesager<br/>modsiger nuværende afgørelse;
+                                    end;
+
+                                    alt Findes modsigende afgørelser
+                                        LLM->>Service: Send rapport med<br/>modsigende afgørelser;
+                                        Service->>Sagsbehandler: Præsenterer liste over<br/>relevante modsigende ankesager;
+                                    else Ingen modsigende afgørelser
+                                        LLM->>Service: Send "ingen fund" besked;
+                                        Service->>Sagsbehandler: Informerer at ingen<br/>modsigende afgørelser blev fundet;
+                                    end;
+
+                            </pre>
+                          </div>
+                    </section>
+
                     <section>
                         <!-- Forskel mellem assistent, agent -->
                     </section>
@@ -275,16 +476,49 @@
             </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/notes/notes.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/markdown/markdown.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/highlight/highlight.js"></script>
+
+        <!-- Add mermaid diagrams - see https://github.com/zjffun/reveal.js-mermaid-plugin -->
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.6.0/plugin/mermaid/mermaid.js"></script>
 
         <script>
             Reveal.initialize({
                 hash: true,
-                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+                // mermaid initialize config
+                mermaid: {
+                  // flowchart: {
+                  //   curve: 'linear',
+                  // },
+                },
+
+                // this plugin config
+                // mermaidPlugin: {
+                //   beforeRender(el) {
+                //     console.log(el);
+                //     // if return false this element will not call mermaid render
+                //   },
+                //
+                //   afterRender(el) {
+                //     console.log(el);
+                //   },
+                // },
+
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMermaid ]
             });
         </script>
+
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>
+            mermaid.initialize({
+                startOnLoad: true,
+                theme: 'default', // or 'dark', 'forest', 'neutral'
+                securityLevel: 'loose'
+            });
+        </script>
+        -->
     </body>
 </html>

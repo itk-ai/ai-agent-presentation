@@ -30,3 +30,13 @@
     width: auto;
     height: 100%;
 }
+
+/* Slide-specific vertical centering override, thanks to https://github.com/hakimel/reveal.js/pull/1608 */
+.reveal .slides section[data-vertical-align-top]{
+	top: 0 !important;
+}
+
+/* Slide-specific vertical centering override, thanks to https://github.com/hakimel/reveal.js/pull/1608 */
+.reveal .slides section[data-vertical-align-bottom]{
+	bottom: 0 !important;
+}
