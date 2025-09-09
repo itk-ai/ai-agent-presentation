@@ -1,5 +1,7 @@
 # Guide: Opsætning af Flowise AI og Mistral API
 
+**Du SKAL (bør i hvert fald) gennemgå dette INDEN workshoppen torsdag, så du er klar** 
+
 ## Del 1: Opret Flowise AI konto
 
 1. Gå til [Flowise AI's hjemmeside](https://flowiseai.com) og vælg "Get started"
