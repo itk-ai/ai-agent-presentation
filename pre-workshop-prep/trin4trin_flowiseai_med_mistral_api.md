@@ -12,7 +12,7 @@
 
    ![Flowise Sign In](screendumps/02_flowiseai_signin.png)
 
-3. Vælg evt. "Sign In With Google", hvis du har en privat google konto, som du ikke har noget imod at knytte til flowiseai (bekvemmeligt) ellers udfylder du bare - husk at brug private oplysnigner, medmindre din kommune eksplicit har tilladt dig at bruge dine arbejdsoplysninger
+3. Vælg evt. "Sign In With Google", hvis du har en privat google konto, som du ikke har noget imod at knytte til flowiseai (bekvemmeligt) ellers udfylder du bare - husk at brug private oplysninger, medmindre din kommune eksplicit har tilladt dig at bruge dine arbejdsoplysninger
 
    ![Flowise Sign Up](screendumps/03_flowiseai_signup.png)
 
