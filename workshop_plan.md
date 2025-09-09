@@ -43,3 +43,8 @@ Enten så kan de snik snak om udfordringer om potentialer
 Christoffer: AI usecase
 
 - Skraper kommunernes hjemmesider for nyheder han skal være opmærksom på 
+
+## Todo
+
+#TODO:
+Læg evt. aarhus Wiki data'en på huggingface
