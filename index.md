@@ -16,3 +16,11 @@ Der er ingen af de services vi bruger i workshoppen, som vi har foretaget nogen 
 - [Guide til opsætning af Flowiseai og Mistral](/pre-workshop-prep/trin4trin_flowiseai_med_mistral_api.md).
 
   **Du SKAL (bør i hvert fald) gennemgå dette inden workshoppen torsdag** 
+
+## Ekstra referencer
+
+Dem kan du kigge i efter workshoppen (eller før, hvis du er meget spændt)
+
+- [Introduction to (Practical) Building LLM Applications with Flowise / LangChain](https://volcano-ice-cd6.notion.site/Introduction-to-Practical-Building-LLM-Applications-with-Flowise-LangChain-03d6d75bfd20495d96dfdae964bea5a5)
+  
+  Af lidt ældre dato - uden de nyeste tilføjelse til flowiseai, men en meget udførlig trin for trin vejledning med en fin intro til grundbegreber
