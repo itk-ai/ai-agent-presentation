@@ -42,7 +42,7 @@
 
    ![Choose API Plan](screendumps/09_mistral_api_choose_plan.png)
 
-6. Vælg nu "Experiment for free", det kræver at du igen accepterer deres betingelser (primært at de må træne på det du foretager dig - _og det må de godt for **du LAVER PÅ INGEN MÅDE NOGET i denne workshop der har med forretningshemmeligheder, borger- eller medarbejder data at gøre**_)
+6. Vælg nu "Experiment for free", det kræver at du igen accepterer deres betingelser (primært at de må træne på det du foretager dig - _og det må de godt for **du LAVER PÅ INGEN MÅDE NOGET i denne workshop der har med forretningshemmeligheder, borger- eller medarbejder data at gøre, FORSTÅET?! Tak**_)
 
    ![Confirm Plan](screendumps/10_mistral_choose_plan.png)
 
@@ -60,6 +60,8 @@
    ![Store API Key](screendumps/12_mistral_store_key.png)
    
    _her er den gemt i midlertidigt i ren tekst i notesblok. Det er ikke den optimale løsning, men til denne workshop går det. Hvis du har en "Credential manager", så brug den i stedet._
+   
+   Bemærk i øvrigt at den nøgle der fremgår af billederne var en virkelig nøgle, men den har jeg selvfølgelig slettet igen, så den kan ikke bruges mere.
 
 ## Del 3: Tilføj Mistral API nøgle til Flowise
 
