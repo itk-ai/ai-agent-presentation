@@ -16,7 +16,11 @@ Der er ingen af de services vi bruger i workshoppen, som vi har foretaget nogen 
 
   Du bør gennemgå dette inden workshoppen torsdag for at være helt klar.
 
-- [Opsætning/præsentation af (simple) værktøjer i Flowise](/agent-tools/available_tools.md)  
+- [Opsætning/præsentation af (simple) værktøjer i Flowise](/agent-tools/available_tools.md)
+
+## Præsentationen
+
+- [Slidedeck om AI Agenter](/presentation/index.html)
 
 ## Ekstra referencer
 
