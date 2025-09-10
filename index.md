@@ -14,7 +14,9 @@ Der er ingen af de services vi bruger i workshoppen, som vi har foretaget nogen 
 
 - [Guide til opsætning af Flowiseai og Mistral](/pre-workshop-prep/trin4trin_flowiseai_med_mistral_api.md).
 
-  Du bør gennemgå dette inden workshoppen torsdag for at være helt klar. 
+  Du bør gennemgå dette inden workshoppen torsdag for at være helt klar.
+
+- [Opsætning/præsentation af (simple) værktøjer i Flowise](/agent-tools/available_tools.md)  
 
 ## Ekstra referencer
 
