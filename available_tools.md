@@ -40,13 +40,26 @@ Disse værktøjer kræver ingen eller minimal opsætning og er perfekte til at e
   * Find din API nøgle - enten i bekræftelsesmailen du før tilsendt efter at have verificeret din mail eller fra dit [OpenWeatherMap dashboard](https://home.openweathermap.org/api_keys)
   * [Dokumentation for OpenWeatherMaps current weather API](https://openweathermap.org/current#geocoding)
   * [Dokumentation for OpenWeatherMaps 5 dage vejrudsigt](https://openweathermap.org/forecast5#builtin)
-  * Eksempel: Brug `RequestsGet` til at hente vejrudsigten fra en offentlig API.
 
 
 ## ⚡ Lidt mere avancerede værktøjer
 
 Disse værktøjer åbner for mere funktionalitet, men kan kræve opsætning med tredjepartskonti. Overvej at bruge **testkonti**, hvis I ikke vil forbinde private profiler.
 
+1. GmailTool
+
+- **Hvad den gør:** Giver agenten mulighed for at sende e-mails via Gmail.
+- **Opsætning:**
+
+  * Kræver [opsætning af google OAuth adgang](https://docs.flowiseai.com/integrations/langchain/tools/gmail)
+
+
+2. GoogleDocsTool
+
+- **Hvad den gør:** Kan oprette og redigere Google Docs. Perfekt til automatisk rapportgenerering.
+- **Opsætning:**
+
+  * Kræver opsætning af google OAuth adgang [her eksemplificeret med google sheets](https://docs.flowiseai.com/integrations/langchain/tools/google-sheets)
 
 ## Alternative gode værktøjer
 
