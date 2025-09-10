@@ -17,7 +17,7 @@ Disse værktøjer kræver ingen eller minimal opsætning og er perfekte til at e
    - **Hvad den gør:** Returnerer den aktuelle dato og tid. Kan bruges til tidsstempler eller tidsafhængige svar.
    - **Opsætning:** Ingen opsætning nødvendig.
 
-3. **SerpAPI**
+3. SerpAPI
     - **Hvad den gør:** Giver adgang til Google-søgninger via SerpAPI, hvilket muliggør automatiserede og avancerede søgninger. Kan bruges til at finde information på nettet og hente strukturerede søgeresultater.
     - **Opsætning:**
         - Kræver en **API-nøgle** fra [SerpAPI](https://serpapi.com/).
@@ -27,6 +27,20 @@ Disse værktøjer kræver ingen eller minimal opsætning og er perfekte til at e
 
    - **Hvad den gør:** Henter tekstindhold fra en given URL. Godt til at hente oplysninger fra en kommunes hjemmeside eller offentlig side.
    - **Opsætning:** Ingen API-nøgle kræves. Du skal blot give en URL som input.
+
+
+5. RequestsGet (og andre Requests værktøjer)
+
+* **Hvad den gør:** Sender en HTTP-request til en API (fx en vejrtjeneste som [DMI’s API](https://opendatadocs.dmi.govcloud.dk/Authentication) eller OpenWeatherMap).
+* **Opsætning:**
+  
+  af OpenWeatherMap
+
+  * [Opret konto hos OpenWeatherMap](https://home.openweathermap.org/users/sign_up) og verificer din mail. Det kan desværre tage op mod 2 timer før API nøglen er aktiv
+  * Find din API nøgle - enten i bekræftelsesmailen du før tilsendt efter at have verificeret din mail eller fra dit [OpenWeatherMap dashboard](https://home.openweathermap.org/api_keys)
+  * [Dokumentation for OpenWeatherMaps current weather API](https://openweathermap.org/current#geocoding)
+  * [Dokumentation for OpenWeatherMaps 5 dage vejrudsigt](https://openweathermap.org/forecast5#builtin)
+  * Eksempel: Brug `RequestsGet` til at hente vejrudsigten fra en offentlig API.
 
 
 ## ⚡ Lidt mere avancerede værktøjer
