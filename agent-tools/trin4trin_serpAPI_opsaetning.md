@@ -8,7 +8,7 @@
 
    ![SerpAPI Landing Page](screendumps/05_SerpAPI_landingpage.png)
 
-2. Klik på "Sign up" linket 
+2. Klik på "Register" linket 
 
    ![SerpAPI Sign Up](screendumps/06_SerpAPI_signup1.png)
 
