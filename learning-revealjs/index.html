@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>AI Agents - KL AI Netværksmøde</title>
+
+        <!-- Load reveal.js from CDN -->
+        <!-- see https://www.jsdelivr.com/package/npm/reveal.js?tab=files -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/theme/white.css">
+
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/highlight/monokai.css">
+
+        <!-- Mermaid pluging: https://github.com/zjffun/reveal.js-mermaid-plugin -->
+
+        <!-- Font Awesome 6 (Latest) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="custom.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <!-- Example diagram -->
+                    <div class="mermaid">
+                        <pre>
+                          %%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': true }}}%%
+                          flowchart TD
+                            A[Start] --> B{Is it?};
+                            B -- Yes --> C[OK];;
+                            B -- No ----> E[End];
+                        </pre>
+                      </div>
+                </section>
+                <section data-transition="fade">
+                    <!-- Example diagram -->
+                    <div class="mermaid">
+                        <pre>
+                          %%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': true }}}%%
+                          flowchart TD
+                            A[Start] --> B{Is it?};
+                            B -- Yes --> C[OK];
+                            C --> D[Rethink];
+                            D --> B;
+                            B -- No ----> E[End];
+                        </pre>
+                      </div>
+                </section>
+                <section data-auto-animate>
+                    <!-- Example diagram -->
+                    <div class="mermaid">
+                        <pre data-id="dataid">
+                          %%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': true }}}%%
+                          flowchart TD
+                            A[Start] --> B{Is it?};
+                            B -- Yes --> C[OK];
+                            B -- No ----> E[End];
+                        </pre>
+                      </div>
+                </section>
+                <section data-auto-animate>
+                    <!-- Example diagram -->
+                    <div class="mermaid">
+                        <pre data-id="dataid">
+                          %%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': true }}}%%
+                          flowchart TD
+                            A[Start] --> B{Is it?};
+                            B -- Yes --> C[OK];
+                            C --> D[Rethink];
+                            D --> B;
+                            B -- No ----> E[End];
+                        </pre>
+                      </div>
+                </section>
+
+                <section>
+                    <p>
+                        ️🛠 Tools/Acting:
+                        - 🔧 (wrench) - represents tools and problem-solving
+                        - ⚒️ (hammer and pick) - represents working with tools
+                        - 🤖 (robot) - represents automation and AI
+                        - 🏗️ (construction) - represents building and creating
+                        - ⚙️ (gear) - represents mechanisms and systems
+                        - 🔨 (hammer) - represents taking action
+
+                        Purpose/Agency:
+                        - 🎯 (target) - represents purpose and goals
+                        - 🧭 (compass) - represents direction and guidance
+                        - 🗺️ (map) - represents planning and navigation
+                        - 🎮 (game controller) - represents control and interaction
+                        - 🧠 (brain) - represents intelligence and decision-making
+                        - 🔍 (magnifying glass) - represents seeking and analyzing
+
+                        Some good combinations could be:
+                        1. `🤖🎯` - AI agent with purpose
+                        2. `⚙️🧭` - Working mechanism with direction
+                        3. `🔧🧠` - Tool with intelligence
+                        4. `🛠️🎯` - Tools with a target/purpose
+                        5. `⚒️🗺️` - Acting with a plan
+
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/notes/notes.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/markdown/markdown.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/highlight/highlight.js"></script>
+
+        <!-- Add mermaid diagrams - see https://github.com/zjffun/reveal.js-mermaid-plugin -->
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.6.0/plugin/mermaid/mermaid.js"></script>
+
+        <script>
+            Reveal.initialize({
+                hash: true,
+                // mermaid initialize config
+                mermaid: {
+                  // flowchart: {
+                  //   curve: 'linear',
+                  // },
+                },
+
+                // this plugin config
+                // mermaidPlugin: {
+                //   beforeRender(el) {
+                //     console.log(el);
+                //     // if return false this element will not call mermaid render
+                //   },
+                //
+                //   afterRender(el) {
+                //     console.log(el);
+                //   },
+                // },
+
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMermaid ]
+            });
+        </script>
+
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>
+            mermaid.initialize({
+                startOnLoad: true,
+                theme: 'default', // or 'dark', 'forest', 'neutral'
+                securityLevel: 'loose'
+            });
+        </script>
+        -->
+    </body>
+</html>

@@ -1,0 +1,42 @@
+/* Grid layout for vertical slides */
+.vertical-slide-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+}
+
+.vertical-slide-grid-bio {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+}
+
+/* Remove bullets from lists */
+.no-bullets {
+    list-style: none;
+}
+
+/* Dimmed text for inactive content */
+.dimmed {
+    color: grey;
+}
+
+/* Image styles */
+.full-width-image {
+    width: 200%;
+}
+
+.full-height-image {
+    width: auto;
+    height: 100%;
+}
+
+/* Slide-specific vertical centering override, thanks to https://github.com/hakimel/reveal.js/pull/1608 */
+.reveal .slides section[data-vertical-align-top]{
+	top: 0 !important;
+}
+
+/* Slide-specific vertical centering override, thanks to https://github.com/hakimel/reveal.js/pull/1608 */
+.reveal .slides section[data-vertical-align-bottom]{
+	bottom: 0 !important;
+}
