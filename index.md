@@ -18,6 +18,8 @@ Der er ingen af de services vi bruger i workshoppen, som vi har foretaget nogen 
 
 - [Opsætning/præsentation af (simple) værktøjer i Flowise](/agent-tools/available_tools.md)
 
+- [Opsætning af Document Store](/agent-tools/trin4trin_documentstore_opsaetning.md)
+
 ## Præsentationen
 
 - [Slidedeck om AI Agenter](/presentation/index.html)
