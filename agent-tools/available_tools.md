@@ -48,18 +48,18 @@ Disse værktøjer åbner for mere funktionalitet, men kan kræve opsætning med 
 
 1. GmailTool
 
-- **Hvad den gør:** Giver agenten mulighed for at sende e-mails via Gmail.
-- **Opsætning:**
+   - **Hvad den gør:** Giver agenten mulighed for at sende e-mails via Gmail.
+   - **Opsætning:**
 
-  * Kræver [opsætning af google OAuth adgang](https://docs.flowiseai.com/integrations/langchain/tools/gmail)
+     * Kræver [opsætning af google OAuth adgang](https://docs.flowiseai.com/integrations/langchain/tools/gmail)
 
 
 2. GoogleDocsTool
 
-- **Hvad den gør:** Kan oprette og redigere Google Docs. Perfekt til automatisk rapportgenerering.
-- **Opsætning:**
+   - **Hvad den gør:** Kan oprette og redigere Google Docs. Perfekt til automatisk rapportgenerering.
+   - **Opsætning:**
 
-  * Kræver opsætning af google OAuth adgang [her eksemplificeret med google sheets](https://docs.flowiseai.com/integrations/langchain/tools/google-sheets)
+     * Kræver opsætning af google OAuth adgang [her eksemplificeret med google sheets](https://docs.flowiseai.com/integrations/langchain/tools/google-sheets)
 
 ## Alternative gode værktøjer
 
