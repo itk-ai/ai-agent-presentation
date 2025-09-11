@@ -31,15 +31,15 @@ Disse værktøjer kræver ingen eller minimal opsætning og er perfekte til at e
 
 5. RequestsGet (og andre Requests værktøjer)
 
-* **Hvad den gør:** Sender en HTTP-request til en API (fx en vejrtjeneste som [DMI’s API](https://opendatadocs.dmi.govcloud.dk/Authentication) eller OpenWeatherMap).
-* **Opsætning:**
+   * **Hvad den gør:** Sender en HTTP-request til en API (fx en vejrtjeneste som [DMI’s API](https://opendatadocs.dmi.govcloud.dk/Authentication) eller OpenWeatherMap).
+   * **Opsætning:**
   
-  af OpenWeatherMap
+     af OpenWeatherMap
 
-  * [Opret konto hos OpenWeatherMap](https://home.openweathermap.org/users/sign_up) og verificer din mail. Det kan desværre tage op mod 2 timer før API nøglen er aktiv
-  * Find din API nøgle - enten i bekræftelsesmailen du før tilsendt efter at have verificeret din mail eller fra dit [OpenWeatherMap dashboard](https://home.openweathermap.org/api_keys)
-  * [Dokumentation for OpenWeatherMaps current weather API](https://openweathermap.org/current#geocoding)
-  * [Dokumentation for OpenWeatherMaps 5 dage vejrudsigt](https://openweathermap.org/forecast5#builtin)
+     * [Opret konto hos OpenWeatherMap](https://home.openweathermap.org/users/sign_up) og verificer din mail. Det kan desværre tage op mod 2 timer før API nøglen er aktiv
+     * Find din API nøgle - enten i bekræftelsesmailen du før tilsendt efter at have verificeret din mail eller fra dit [OpenWeatherMap dashboard](https://home.openweathermap.org/api_keys)
+     * [Dokumentation for OpenWeatherMaps current weather API](https://openweathermap.org/current#geocoding)
+     * [Dokumentation for OpenWeatherMaps 5 dage vejrudsigt](https://openweathermap.org/forecast5#builtin)
 
 
 ## ⚡ Lidt mere avancerede værktøjer
