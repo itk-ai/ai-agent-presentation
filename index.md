@@ -43,3 +43,7 @@ Dem kan du kigge i efter workshoppen (eller før, hvis du er meget spændt)
 - [Introduction to (Practical) Building LLM Applications with Flowise / LangChain](https://volcano-ice-cd6.notion.site/Introduction-to-Practical-Building-LLM-Applications-with-Flowise-LangChain-03d6d75bfd20495d96dfdae964bea5a5)
   
   Af lidt ældre dato - uden de nyeste tilføjelse til flowiseai, men en meget udførlig trin for trin vejledning med en fin intro til grundbegreber
+
+---
+
+[AI Agents - KL AI Netværksmøde](https://itk-ai.github.io/ai-agent-presentation/) © 2025 by [Daniel Kjeldsmark Andreasen](https://github.com/DKAndreasen) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
