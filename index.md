@@ -28,6 +28,18 @@ Der er ingen af de services vi bruger i workshoppen, som vi har foretaget nogen 
 
 Dem kan du kigge i efter workshoppen (eller før, hvis du er meget spændt)
 
+- [Flowise egen intro til AgentFlows](https://docs.flowiseai.com/using-flowise/agentflowv2)
+
+  Fin oversigt over de blokke der er tilgængelige på tegnebrættet (Under "Agentflows" -> "Create new")
+
+- [Getting started](https://www.youtube.com/watch?v=SLVVDUIbIBE)
+
+  Kort video intro, der giver et fint overblik over hvordan man navigerer rundt i flowise og bruger tegnebrættet. Det er dem første af en hel youtube serie, hvor også den næste video får en anbefaling med på vejen:
+
+- [Building Agents](https://www.youtube.com/watch?v=GAtrG74sl1E&list=PL4HikwTaYE0FFKifDJcgnP23LjGAZjzL8&index=12)
+
+  Anden video i [Leon van Zyl](https://www.youtube.com/@leonvanzyl)s intro til FlowiseAIs AgentFlow. Her med den *klassiske* byg-en-app-agent. Agenten er ikke superinteressant i kommune-sammenhæng, men det introducerer arbejdsgangen fint og Leon demonstere hvordan man kan bruge LLM-elementet i stedet for Agent-elementet. 
+
 - [Introduction to (Practical) Building LLM Applications with Flowise / LangChain](https://volcano-ice-cd6.notion.site/Introduction-to-Practical-Building-LLM-Applications-with-Flowise-LangChain-03d6d75bfd20495d96dfdae964bea5a5)
   
   Af lidt ældre dato - uden de nyeste tilføjelse til flowiseai, men en meget udførlig trin for trin vejledning med en fin intro til grundbegreber
